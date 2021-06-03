@@ -18,21 +18,31 @@ body, html {
 .nana{
   float:left;
   }
-    .floating-menu {
-    font-family: sans-serif;
-    background: yellowgreen;
-    padding: 5px;;
-    width: 100%;
-    z-index: 100;
-    position: fixed;
-  }
-  .floating-menu a, 
-  .floating-menu h3 {
-    font-size: 0.9em;
-    display: block;
-    margin: 0 0.5em;
-    color: white;
+  
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
 }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
@@ -83,6 +93,13 @@ h3 {
 
 
 </style>
+  <div class="topnav">
+  <img src="/img/logo.img.jpeg" alt="logo" height="auto" width="50px"/>
+  <a class="active" href="theknittingroom.github.io">Home</a>
+  <a href="theknittingroom.github.io/sales/shopyarn.html">Buy Wool</a>
+  <a href="theknittingroom.github.io/sales/shopgarments.html">Buy products</a>
+  <a href="theknittingroom.github.io/contactus.html">Contact Us</a>
+</div>
 </head>
 <body>
 
